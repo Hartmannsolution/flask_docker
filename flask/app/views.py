@@ -14,7 +14,13 @@ def index():
 
 @app.route("/recipes")
 def recipes():
-    return jsonify(diction['recipes'])
+    r = {}
+    for key, recipe in diction['recipes'].items():
+        r[key] = {}
+        r[key]['category'] = recipe['category']
+        r[key]['name'] = recipe['name']
+        r[key]['preparation_time'] = recipe['preparation_time']
+    return jsonify(r)
 
 @app.route("/recipe/<id>")
 def recipe(id):
