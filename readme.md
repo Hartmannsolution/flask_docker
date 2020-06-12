@@ -6,14 +6,14 @@ Clone the repo:
 git clone https://github.com/Julian-Nash/docker-flask-uwsgi-nginx-simple.git
 ```
 
-To develop locally, create a new virtual env in the `flask` directory & run the app:
+To develop locally use anaconda or, create a new virtual env in the `flask` directory & run the app:
 
 ```sh
 cd app
 python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
-export FLASK_APP=run.py
+export FLASK_APP=run.py # export is 'set' on windows
 export FLASK_ENV=development
 flask run
 ```
