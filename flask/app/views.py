@@ -2,6 +2,7 @@ from app import app
 
 import os
 import json
+from flask import jsonify 
 
 with open('recipes.json','r') as jsonfile:
         diction = json.load(jsonfile)
@@ -19,8 +20,8 @@ def index():
 
 @app.route("/recipes")
 def recipes():
-    return diction['recipes']
+    return jsonify(diction['recipes'])
 
 @app.route("/recipe/<id>")
 def recipe(id):
-    return diction['recipes'][id]
+    return jsonify(diction['recipes'][id])
