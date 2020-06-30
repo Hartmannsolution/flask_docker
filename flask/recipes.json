@@ -40,7 +40,7 @@
                 "Flour your hands and shape the dough into a tube, about 5cm in diameter. Cut into 2cm-thick slices and place on a large baking sheet. Space them out as the mixture will spread when baking.",
                 "Make a small indentation in the middle of each slice with the end of a wooden spoon, and drop a tsp of jam in the centre. Bake for 10-15 mins until slightly risen and just golden. Cool on a wire rack."
             ],
-            "category": "cake",
+            "category": "baking",
             "ingredient_list": [
                 {
                     "name": "self-raising flour",
@@ -108,6 +108,32 @@
         },
         "4": {
             "id": 4,
+            "name": "vanilla icecream",
+            "preparation_time": 35,
+            "directions": ["pour the double cream in a bowl","stir til firm","whip eggs and sugar","turn the whipped cream gently into the egg mixture","add vanilla essense"
+               ],
+            "category": "desert",
+            "ingredient_list": [
+                {
+                    "name": "eggs",
+                    "amount": 3
+                },
+                {
+                    "name": "double cream",
+                    "amount": 500
+                },
+                {
+                    "name": "vanilla essense",
+                    "amount": 2
+                },
+                {
+                    "name": "sugar",
+                    "amount": 200
+                }
+            ]
+        },
+        "5": {
+            "id": 5,
             "name": "fish stew ",
             "preparation_time": 30,
             "directions": [
@@ -147,6 +173,159 @@
                 {
                     "name": "garlic",
                     "amount": 10
+                }
+            ]
+        },
+        "6": {
+            "id": 6,
+            "name": "Shortbread",
+            "preparation_time": 30,
+            "directions": ["Preheat the oven to 190C/375F/Gas 5","Beat the butter and the sugar together until smooth","Stir in the flour to get a smooth paste. Turn on to a work surface and gently roll out until the paste is 1cm/½in thick","Cut into rounds or fingers and place onto a baking tray. Sprinkle with caster sugar and chill in the fridge for 20 minutes.","Bake in the oven for 15-20 minutes, or until pale golden-brown. Set aside to cool on a wire rack"
+                ],
+            "category": "baking",
+            "ingredient_list": [
+                {
+                    "name": "butter",
+                    "amount": 125
+                },
+                {
+                    "name": "sugar",
+                    "amount": 55
+                },
+                {
+                    "name": "flour",
+                    "amount": 180
+                }
+            ]
+        },
+        "7": {
+            "id": 7,
+            "name": "Thai noodle soup",
+            "preparation_time": 30,
+            "directions": ["Blend the ginger, chilli, lemongrass, garlic and coriander in a food processor until quite finely chopped, adding a little vegetable oil if the paste is too dry.","Add the paste to a large shallow pan and cook for a few minutes to release the aromas, stirring frequently. Roughly crush some coriander seeds with a pestle and mortar and add to the paste with a pinch or two of turmeric and the vegetable stock and simmer for a few minutes. ","Meanwhile, pour some boiling water over the rice noodles in a bowl and let them sit until they have softened, about 4-5 minutes, then drain and set aside. ","To soften the heat of the sauce, add the coconut milk to the pan and bring back to the boil. Reduce the heat and simmer for a few minutes while you devein the prawns by cutting along the back of the prawn with a small sharp knife and removing the black 'thread' using the point of the knife. Add the prawns to the pan and cook for 2-3 minutes, or until pink and tender, finishing off with splashes of Thai fish sauce, to taste, and more chopped fresh coriander, to your taste.","To serve, divide the drained noodles between two bowls and ladle over the aromatic soup with the prawns and serve straightaway. Chicken, scallops or mushrooms are a great alternative to the prawns."],
+            "category": "main",
+            "ingredient_list": [
+                {
+                    "name": "coconut milk",
+                    "amount": 400
+                },
+                {
+                    "name": "vegetable stock",
+                    "amount": 500
+                },
+                {
+                    "name": "red chillies",
+                    "amount": 30
+                },
+                {
+                    "name": "garlic",
+                    "amount": 10
+                },
+                {
+                    "name": "rice nooldes",
+                    "amount": 100
+                },
+                {
+                    "name": "tiger prawns",
+                    "amount": 300
+                },
+                {
+                    "name": "fish sauce",
+                    "amount": 6
+                },
+                {
+                    "name": "tumeric",
+                    "amount": 2
+                }
+            ]
+        },
+        "8": {
+            "id": 8,
+            "name": "fish in a bag",
+            "preparation_time": 20,
+            "directions": ["Preheat the oven to 200C/180C Fan/Gas 6. Halve the courgette lenghtways and cut into thin slices. Halve the cherry tomatoes. Lay out a large sheet of foil, twice the size of the fish. Arrange the vegetables in an even layer on one side of the foil and season with salt and pepper. Lay the salmon on top and sprinkle over the mixed herbs.","Grate some of the lemon zest over the salmon, and then squeeze the juice, being careful to discard any pips. Fold the foil over the fish then fold the edges of the foil inwards to make a neat parcel. Before the final edge is sealed, spoon in the vegetable stock, and then close the final edge. Lay on a baking tray then bake for 15–20 minutes.","Meanwhile, add the rice to a a large pan with 200ml/7fl oz water and cover. Bring to the boil, then lower the heat and cook for 10-15 minutes until the water is absorbed. Use a fork to fluff up the rice. ","Take the salmon parcel out of the oven and carefully cut open as the steam will be very hot. Serve the salmon with the vegetables and rice."
+                ],
+            "category": "fish",
+            "ingredient_list": [
+                {
+                    "name": "courgette",
+                    "amount": 200
+                },
+                {
+                    "name": "tomatoes",
+                    "amount": 100
+                },
+                {
+                    "name": "salmon fillets",
+                    "amount": 300
+                },
+                {
+                    "name": "mixed herbs",
+                    "amount": 6
+                },
+                {
+                    "name": "vegetable stock",
+                    "amount": 400
+                }
+            ]
+        },
+        "9": {
+            "id": 9,
+            "name": "leek and potato soup",
+            "preparation_time": 20,
+            "directions": ["Place all the ingredients, except the chives into a saucepan and cook for 15 minutes or until cooked through","Add the chives and serve"
+                ],
+            "category": "soup",
+            "ingredient_list": [
+                {
+                    "name": "potato",
+                    "amount": 100
+                },
+                {
+                    "name": "leek",
+                    "amount": 100
+                },
+                {
+                    "name": "butter",
+                    "amount": 30
+                },
+                {
+                    "name": "milk",
+                    "amount": 150
+                },
+                {
+                    "name": "double cream",
+                    "amount": 150
+                }
+            ]
+        },
+        "10": {
+            "id": 10,
+            "name": "satay sauce",
+            "preparation_time": 15,
+            "directions": ["Blend all the ingredients together in the blender until smooth, leave in fridge to set. ","The taste should be sweet, nutty and spicy. It can be served with a variety of dishes including chicken, pork or prawn satay."
+                ],
+            "category": "sauce",
+            "ingredient_list": [
+                {
+                    "name": " coconut milk",
+                    "amount": 400
+                },
+                {
+                    "name": "peanuts",
+                    "amount": 500
+                },
+                {
+                    "name": "rice vinegar",
+                    "amount": 300
+                },
+                {
+                    "name": "sugar",
+                    "amount": 500
+                },
+                {
+                    "name": "curry paste",
+                    "amount": 15
                 }
             ]
         }

@@ -9,7 +9,6 @@ with open('recipes.json','r') as jsonfile:
 
 @app.route("/")
 def index():
-    # Use os.getenv("key") to get environment variables
     return render_template('./index.html')
 
 @app.route("/recipes")
@@ -27,6 +26,7 @@ def recipe(id):
     try:
         return jsonify(diction['recipes'][id])
     except: 
+        e = sys.exc_info()[0]
         return jsonify({"code":400,"error":"no recipe exist with id: "+id}),400
 
 @app.route('/<path:path>')
