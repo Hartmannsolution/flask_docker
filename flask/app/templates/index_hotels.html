@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>API Documentation</title>
+</head>
+
+<body>
+    <h1>
+        Hotels API
+    </h1>
+    <div class="card">
+        <div class="card-body">
+            <h2>Get all hotels</h2>
+            <ul>
+                <li>URL</li>
+                <a href="/hotel/all">/hotel/all</a>
+                <li>METHOD</li>
+                GET
+                <li>URL PARAMS</li>
+                None
+                <li>QUERY PARAMS</li>
+                None
+                <li>Success Response</li>
+                <ul>
+                    <li>Code: 200</li>
+                    <li>Content: <code>[{
+                        "activity": "sleep",
+                        "address": "Cwm Cadlan, Penderyn, CF44 0YJ",
+                        "alt": null,
+                        "checkin": null,
+                        "checkout": null,
+                        "content": "Fantastic little B&B with 3 rooms, all en-suite. Very comfortable beds, friendly hosts, delicious breakfasts. Ideally placed for waterfalls and mountains, Walkers and cyclists welcome.",
+                        "directions": "From Penderyn, follow Cwm Cadlan road from Lamb Hotel for 1.5 miles, you'll see sign and yellow grit bin at the gate on your left.",
+                        "email": "willow.walks@hotmail.co.uk",
+                        "fax": null,
+                        "geo": {
+                          "lat": 51.7823,
+                          "lon": -3.4959
+                        },
+                        "hours": null,
+                        "id": 4042,
+                        "image": null,
+                        "name": "Beili Helyg Guest House",
+                        "phone": "+44 0 1685 813609",
+                        "price": "£80 per double room per night",
+                        "title": "Brecon Beacons National Park",
+                        "tollfree": null,
+                        "type": "landmark",
+                        "url": "http://www.beilihelygguesthouse.co.uk"
+                      },...]</code></li>
+                </ul>
+                <li>Error response</li>
+                <ul>
+                    <li>Code: 400</li>
+                    <li>Content: <code>
+            {"code":400,"error":"URL is not a valid resource on this server"}
+        </code></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h2>Get hotel by id</h2>
+            <ul>
+                <li>URL</li>
+                <a href="/hotel/4042">/hotel/:id</a>
+                <li>METHOD</li>
+                GET
+                <li>URL PARAMS</li>
+                Reguired: id=[integer]
+                <li>QUERY PARAMS</li>
+                None
+                <li>Success Response</li>
+                <ul>
+                    <li>Code: 200</li>
+                    <li>Content: <code>{
+                        "activity": "sleep",
+                        "address": "Cwm Cadlan, Penderyn, CF44 0YJ",
+                        "alt": null,
+                        "checkin": null,
+                        "checkout": null,
+                        "content": "Fantastic little B&B with 3 rooms, all en-suite. Very comfortable beds, friendly hosts, delicious breakfasts. Ideally placed for waterfalls and mountains, Walkers and cyclists welcome.",
+                        "directions": "From Penderyn, follow Cwm Cadlan road from Lamb Hotel for 1.5 miles, you'll see sign and yellow grit bin at the gate on your left.",
+                        "email": "willow.walks@hotmail.co.uk",
+                        "fax": null,
+                        "geo": {
+                          "lat": 51.7823,
+                          "lon": -3.4959
+                        },
+                        "hours": null,
+                        "id": 4042,
+                        "image": null,
+                        "name": "Beili Helyg Guest House",
+                        "phone": "+44 0 1685 813609",
+                        "price": "£80 per double room per night",
+                        "title": "Brecon Beacons National Park",
+                        "tollfree": null,
+                        "type": "landmark",
+                        "url": "http://www.beilihelygguesthouse.co.uk"
+                      }</code></li>
+                </ul>
+                <li>Error response</li>
+                <ul>
+                    <li>Code: 400</li>
+                    <li>Content: <code>
+            {"code":400,"error":"no hotel exists with id: ID"}
+        </code></li>
+                </ul>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
